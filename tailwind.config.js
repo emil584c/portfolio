@@ -20,7 +20,11 @@ module.exports = {
         'rubik' :'Rubik'
       },
       spacing:{
-        'zzz': '1px'
+        'zzz': '1px',
+        'bbb': '2px',
+        'project': '430px',
+        'project-phone': '386px',
+        
       },
       maxWidth: {
         'phone': '322px',
