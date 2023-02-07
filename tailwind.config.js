@@ -22,12 +22,14 @@ module.exports = {
       spacing:{
         'zzz': '1px',
         'bbb': '2px',
+        'ccc': '3px',
         'project': '430px',
         'project-phone': '386px',
         
       },
       maxWidth: {
         'phone': '322px',
+        'textBox': '260px',
       },
     
       
