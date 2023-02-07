@@ -1,18 +1,29 @@
-<script setup>
-</script>
+
 
 <template>
 
-  <header>
-    <nav>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <button></button>
-      </ul>
-    </nav>
-  </header>
+<header class="border-2 border-primary-black py-1">
+
+<nav class=" md:flex justify-between items-center">
+  <p class=" font-rubik font-medium text-2xl">Lind.gg</p>
+
+  <div class="  md:hidden cursor-pointer flex flex-col gap-1">
+    <div class=" bg-primary-black w-3 h-1"></div>
+    <div class=" bg-primary-black w-2 h-1"></div>
+    <div class=" bg-primary-black w-1 h-1"></div>
+  </div>
+
+  <ul class="md:flex md:items-center gap-4 md:static absolute bg-primary-cream md:w-auto w-full  duration-700 ease-in">
+    <li class="font-rubik font-normal text-base text-primary-black text-center max-w-phone lg:max-w-lg lg:text-lg"><a href=""></a>Home</li>
+    <li class="font-rubik font-normal text-base text-primary-black text-center max-w-phone lg:max-w-lg lg:text-lg"><a href=""></a>Who am i</li>
+    <li class="font-rubik font-normal text-base text-primary-black text-center max-w-phone lg:max-w-lg lg:text-lg"><a href=""></a>My work</li>
+    <button class=" text-primary-white px-8 py-3 bg-primary-blue border-solid border-2 border-primary-blue text-xl font-rubik">Hire me</button>
+  </ul>
+</nav>
+        
+</header>
+
+
   <!-- hero section -->
   <main class=" bg-primary-cream">
     <section class="border-2 border-primary-black py-8">
@@ -69,7 +80,7 @@
     <!-- my work section -->
     <section class="mt-8">
       <h2 class="text-center my-8 font-rubik font-medium text-2xl">My work</h2>
-      <div class="flex justify-center">
+      <div class="lg:flex lg:justify-center">
         <div class="flex flex-col text-center">
 
           <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project">
@@ -105,7 +116,7 @@
           </article>
           
         </div>
-        <div class="flex flex-col mt-24 -ml-bbb">
+        <div class="lg:flex lg:flex-col lg:mt-24 lg:-ml-bbb">
 
           <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project">
             <div class=" flex flex-col items-center">
@@ -166,3 +177,10 @@
 
 <style scoped>
 </style>
+
+
+<script setup>
+
+
+
+</script>
