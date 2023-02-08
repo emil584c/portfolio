@@ -2,31 +2,41 @@
 
 <template>
 
-<header class="border-2 border-primary-black py-1">
+<header class=" bg-primary-cream border-2 border-primary-black">
 
-<nav class=" md:flex justify-between items-center">
-  <p class=" font-rubik font-medium text-2xl">Lind.gg</p>
+     <nav class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 md:max-w-5xl md:mx-auto">
+        <div>
+          <a href="#"><p>lind.gg</p></a>
+        </div>
 
-  <div class="  md:hidden cursor-pointer flex flex-col gap-1">
-    <div class=" bg-primary-black w-3 h-1"></div>
-    <div class=" bg-primary-black w-2 h-1"></div>
-    <div class=" bg-primary-black w-1 h-1"></div>
-  </div>
-
-  <ul class="md:flex md:items-center gap-4 md:static absolute bg-primary-cream md:w-auto w-full  duration-700 ease-in">
-    <li class="font-rubik font-normal text-base text-primary-black text-center max-w-phone lg:max-w-lg lg:text-lg"><a href=""></a>Home</li>
-    <li class="font-rubik font-normal text-base text-primary-black text-center max-w-phone lg:max-w-lg lg:text-lg"><a href=""></a>Who am i</li>
-    <li class="font-rubik font-normal text-base text-primary-black text-center max-w-phone lg:max-w-lg lg:text-lg"><a href=""></a>My work</li>
-    <button class=" text-primary-white px-8 py-3 bg-primary-blue border-solid border-2 border-primary-blue text-xl font-rubik">Hire me</button>
-  </ul>
-</nav>
         
-</header>
+        <div id="menu-button" class="md:hidden flex flex-col gap-1">
+          <div class=" w-6 h-1 border-2 border-primary-black"></div>
+          <div class=" w-4 h-1 border-2 border-primary-black"></div>
+          <div class=" w-2 h-1 border-2 border-primary-black" ></div>
+         </div>
+       
+       
+       <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+          <ul class="pt-4text-base text-gray-700 md:flex md:justify-between md:pt-0">
+            <li><a class="md:p-4 py-2 block" href="#">Home</a></li>
+
+            <li><a class="md:p-4 py-2 block" href="#">Who am i</a></li>
+
+            <li><a class="md:p-4 py-2 block" href="#">My work</a></li>
+
+            <li><a class="md:p-4 py-2 block" href="#">Contact me</a></li>
+
+          </ul>
+        </div>
+    </nav>
+
+  </header>
 
 
   <!-- hero section -->
   <main class=" bg-primary-cream">
-    <section class="border-2 border-primary-black py-8">
+    <section class="border-2 border-primary-black py-8 -mt-ccc">
       <div class="flex flex-col lg:flex-row lg:max-w-6xl mx-auto">
         <div class="flex flex-col max-w-sm mx-auto items-center gap-8 lg:max-w-5xl">
           <h1 class="font-rubik font-bold text-3xl text-center max-w-phone text-primary-grey lg:text-6xl lg:max-w-5xl lg:leading-tight">Hi, I´m <span class=" text-primary-black">Emil Lind</span> <br>A Frontend Developer <br>Based in Odense</h1>
