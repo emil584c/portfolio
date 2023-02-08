@@ -29,7 +29,7 @@
     <section class="border-2 border-primary-black py-8">
       <div class="flex flex-col lg:flex-row lg:max-w-6xl mx-auto">
         <div class="flex flex-col max-w-sm mx-auto items-center gap-8 lg:max-w-5xl">
-          <h1 class="font-rubik font-bold text-3xl text-center max-w-phone text-primary-grey lg:text-6xl lg:max-w-5xl lg:leading-tight">Hi, I´m <span class=" text-primary-black">Emil Lind</span> <br>A Frontend developer <br>Based in Odense</h1>
+          <h1 class="font-rubik font-bold text-3xl text-center max-w-phone text-primary-grey lg:text-6xl lg:max-w-5xl lg:leading-tight">Hi, I´m <span class=" text-primary-black">Emil Lind</span> <br>A Frontend Developer <br>Based in Odense</h1>
           <p class="font-rubik font-normal text-base text-primary-black text-center max-w-phone lg:max-w-lg lg:text-lg">I am an aspiring front end developer with a passion for designing and creating websites with HTML, CSS & JS.</p>
           <div>
             <button class=" text-primary-black px-8 py-3 border-solid border-2 border-primary-black text-xl font-rubik">Projects</button>
@@ -43,7 +43,7 @@
     <section class="mt-8">
       <div class=" max-w-phone mx-auto flex flex-col items-center lg:max-w-6xl">
         <h2 class="text-center my-8 font-rubik font-medium text-2xl">Who am i</h2>
-        <div class="border-2 border-primary-black p-4 flex flex-col items-center max-w-phone lg:max-w-5xl lg:flex-row lg:justify-between lg:w-full">
+        <div class="border-2 border-primary-black p-4 flex flex-col items-center max-w-phone lg:max-w-5xl lg:flex-row lg:justify-between lg:w-full lg:px-12">
           <p class=" font-rubik font-normal text-base text-primary-black text-center max-w-xs lg:max-w-xl lg:text-left">Hi! My name is Emil, I am 21 years old and studying in Odense. I am an aspiring front end developer trying to find my place in the market. I have a passion for coding in HTML and CSS and I am hoping to learn javascript later on down the road. I also have an interest in creating content. <br><br> I am experienced in most Adobe programs, but I also enjoy the practical work such as filming or taking photos. In my free time I am a down to earth guy who loves either spending time with friends or perfecting my craft in my hobby, which happens to be coding.</p>
           <img class="" src="images/emillind.png" alt="Picture of Emil Lind">
         </div>
@@ -83,22 +83,24 @@
       <div class="lg:flex lg:justify-center">
         <div class="flex flex-col text-center">
 
-          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
-            <div class=" flex flex-col items-center">
-              <h3 class=" font-rubik font-medium text-xl">Personal Portfolio</h3>
-              <p class="font-rubik italic text-sm">Coded website design</p>
-              <div class="flex gap-bbb mt-2">
-                <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Redesign</div>
-                <div class="border-2 border-primary-black font-rubik italic text-xs p-1">HTML</div>
-                <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Tailwind</div>
-                <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Vue.js</div>
-                <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Adobe Xd</div>
+          <a href="projectname1.html">
+            <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project lg:max-w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
+              <div class=" flex flex-col items-center">
+                <h3 class=" font-rubik font-medium text-xl">Personal Portfolio</h3>
+                <p class="font-rubik italic text-sm">Coded website design</p>
+                <div class="flex gap-bbb mt-2">
+                  <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Redesign</div>
+                  <div class="border-2 border-primary-black font-rubik italic text-xs p-1">HTML</div>
+                  <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Tailwind</div>
+                  <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Vue.js</div>
+                  <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Adobe Xd</div>
+                </div>
+                <img class="h-60" src="images/emillind.png" alt="Hydrovertic logo">
               </div>
-              <img class="h-60" src="images/emillind.png" alt="Hydrovertic logo">
-            </div>
-          </article>
+            </article>
+          </a>
 
-          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
+          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project lg:max-w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
             <div class=" flex flex-col items-center">
               <h3 class=" font-rubik font-medium text-xl">Glorious Family Foundation</h3>
               <p class="font-rubik italic text-sm">Coded website design</p>
@@ -116,7 +118,7 @@
         </div>
         <div class="lg:flex lg:flex-col lg:mt-24 lg:-ml-bbb">
 
-          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
+          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project lg:max-w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
             <div class=" flex flex-col items-center">
               <h3 class=" font-rubik font-medium text-xl">Hydrovertic</h3>
               <p class="font-rubik italic text-sm">Coded website design</p>
@@ -131,7 +133,7 @@
             </div>
           </article>
 
-          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
+          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project lg:max-w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
             <div class=" flex flex-col items-center">
               <h3 class=" font-rubik font-medium text-xl">Fjord & Bælt</h3>
               <p class="font-rubik italic text-sm">Concept creation</p>
@@ -149,17 +151,18 @@
 
     <section class="mt-12">
       <h2 class="text-center my-8 font-rubik font-medium text-2xl">Contact me</h2>
-      <div class="border-2 border-primary-black max-w-phone mx-auto p-4">
+      <div class="border-2 border-primary-black max-w-phone mx-auto p-4 lg:max-w-contact lg:p-8">
 
-        <div class="flex flex-col gap-2">
-          <p class=" font-rubik font-normal text-base text-primary-black text-center">I am always ready to answer questions about my work or possible projects in the future. noget med have a talk tænker jeg her, lidt mere åbent</p>
+        <div class="flex flex-col gap-2 lg:flex-row lg:h-40 lg:items-center lg:justify-between">
+          <p class=" font-rubik font-normal text-base text-primary-black text-center lg:max-w-md lg:text-left">I am always ready to answer questions about my work or possible projects in the future. noget med have a talk tænker jeg her, lidt mere åbent</p>
           
-          <div class="border-2 border-primary-black py-1">
-            <p class="font-rubik font-normal text-base text-primary-black text-center">emilwaellind@gmail.com</p>
-          </div>
-
-          <div class="border-2 border-primary-black py-1">
-            <p class="font-rubik font-normal text-base text-primary-black text-center">+45 42544888</p>
+          <div class="flex flex-col gap-2">
+            <div class="border-2 border-primary-black flex items-center p-2 lg:max-w-lg lg:max-h-12">
+              <p class="font-rubik font-normal text-base text-primary-black text-center">emilwaellind@gmail.com</p>
+            </div>
+            <div class="border-2 border-primary-black flex items-center p-2 lg:max-w-lg lg:max-h-12">
+              <p class="font-rubik font-normal text-base text-primary-black text-center">+45 42544888</p>
+            </div>
           </div>
 
         </div>

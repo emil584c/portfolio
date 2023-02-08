@@ -31,6 +31,8 @@ module.exports = {
       maxWidth: {
         'phone': '322px',
         'textBox': '260px',
+        'contact': '858px',
+        'project': '430px',
       },
     
       
