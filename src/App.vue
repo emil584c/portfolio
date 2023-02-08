@@ -45,7 +45,7 @@
         <h2 class="text-center my-8 font-rubik font-medium text-2xl">Who am i</h2>
         <div class="border-2 border-primary-black p-4 flex flex-col items-center max-w-phone lg:max-w-5xl lg:flex-row lg:justify-between lg:w-full">
           <p class=" font-rubik font-normal text-base text-primary-black text-center max-w-xs lg:max-w-xl lg:text-left">Hi! My name is Emil, I am 21 years old and studying in Odense. I am an aspiring front end developer trying to find my place in the market. I have a passion for coding in HTML and CSS and I am hoping to learn javascript later on down the road. I also have an interest in creating content. <br><br> I am experienced in most Adobe programs, but I also enjoy the practical work such as filming or taking photos. In my free time I am a down to earth guy who loves either spending time with friends or perfecting my craft in my hobby, which happens to be coding.</p>
-          <div class=" bg-primary-black w-80 h-80"></div>
+          <img class="" src="images/emillind.png" alt="Picture of Emil Lind">
         </div>
       </div>
     </section>
@@ -83,7 +83,7 @@
       <div class="lg:flex lg:justify-center">
         <div class="flex flex-col text-center">
 
-          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project">
+          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
             <div class=" flex flex-col items-center">
               <h3 class=" font-rubik font-medium text-xl">Personal Portfolio</h3>
               <p class="font-rubik italic text-sm">Coded website design</p>
@@ -94,12 +94,11 @@
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Vue.js</div>
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Adobe Xd</div>
               </div>
-              <img class=" my-8" src="images/hydrovertic.png" alt="Hydrovertic logo">
+              <img class="h-60" src="images/emillind.png" alt="Hydrovertic logo">
             </div>
-            <button class="border-2 border-primary-black px-4 py-3 w-fit font-rubik">Read more</button>
           </article>
 
-          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project">
+          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
             <div class=" flex flex-col items-center">
               <h3 class=" font-rubik font-medium text-xl">Glorious Family Foundation</h3>
               <p class="font-rubik italic text-sm">Coded website design</p>
@@ -110,15 +109,14 @@
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Vue.js</div>
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Adobe Xd</div>
               </div>
-              <img src="" alt="">
+              <img class=" h-28" src="images/gfm.png" alt="Our reworked Glorious Family Foundation logo">
             </div>
-            <button class="border-2 border-primary-black px-4 py-3 font-rubik">Read more</button>
           </article>
           
         </div>
         <div class="lg:flex lg:flex-col lg:mt-24 lg:-ml-bbb">
 
-          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project">
+          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
             <div class=" flex flex-col items-center">
               <h3 class=" font-rubik font-medium text-xl">Hydrovertic</h3>
               <p class="font-rubik italic text-sm">Coded website design</p>
@@ -129,12 +127,11 @@
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Client</div>
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Adobe Xd</div>
               </div>
-              <img class=" my-8 h-28" src="images/hydrovertic.png" alt="Hydrovertic logo">
+              <img class="" src="images/hydrovertic.png" alt="Hydrovertic logo">
             </div>
-            <button class="border-2 border-primary-black px-4 py-3 w-fit font-rubik place-self-end">Read more</button>
           </article>
 
-          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project">
+          <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
             <div class=" flex flex-col items-center">
               <h3 class=" font-rubik font-medium text-xl">Fjord & Bælt</h3>
               <p class="font-rubik italic text-sm">Concept creation</p>
@@ -142,9 +139,8 @@
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Client</div>
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Concept</div>
               </div>
-              <img class=" my-8 h-28" src="images/fjordandbelt.png" alt="Fjord & Bælt logo">
+              <img class="h-28" src="images/fjordandbelt.png" alt="Fjord & Bælt logo">
             </div>
-            <button class="border-2 border-primary-black px-4 py-3 font-rubik">Read more</button>
           </article>
 
         </div>
