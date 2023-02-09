@@ -13,6 +13,7 @@ module.exports = {
       'primary-cream': '#edf1e7',
       'primary-white': '#fbfbfb',
       'secondary-cream': '#e3e8dc',
+      'secondary-blue': '#329ede',
       
     },
 
@@ -26,6 +27,7 @@ module.exports = {
         'ccc': '3px',
         'project': '430px',
         'project-phone': '386px',
+        'hero-size': '80vh',
         
       },
       maxWidth: {

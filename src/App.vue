@@ -2,11 +2,11 @@
 
 <template>
 
-<header class=" bg-primary-cream border-2 border-primary-black">
+<header class=" bg-primary-cream border-2 border-primary-black py-2">
 
      <nav class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 md:max-w-5xl md:mx-auto">
         <div>
-          <a href="#"><p>lind.gg</p></a>
+          <a href="#"><p class="font-rubik text-3xl text-primary-black font-bold">lind.gg</p></a>
         </div>
 
         
@@ -19,13 +19,13 @@
        
        <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
           <ul class="pt-4text-base text-gray-700 md:flex md:justify-between md:pt-0">
-            <li><a class="md:p-4 py-2 block" href="#">Home</a></li>
+            <li><a class="md:p-4 py-2 block font-rubik hover:underline underline-offset-4" href="#">Home</a></li>
 
-            <li><a class="md:p-4 py-2 block" href="#">Who am i</a></li>
+            <li><a class="md:p-4 py-2 block font-rubik hover:underline underline-offset-4" href="#">Who am i</a></li>
 
-            <li><a class="md:p-4 py-2 block" href="#">My work</a></li>
+            <li><a class="md:p-4 py-2 block font-rubik hover:underline underline-offset-4" href="#">My work</a></li>
 
-            <li><a class="md:p-4 py-2 block" href="#">Contact me</a></li>
+            <li><a class="md:p-4 py-2 block font-rubik hover:underline underline-offset-4" href="#">Contact me</a></li>
 
           </ul>
         </div>
@@ -35,18 +35,18 @@
 
 
   <!-- hero section -->
-  <main class=" bg-primary-cream">
-    <section class="border-2 border-primary-black py-8 -mt-ccc">
+  <main class=" bg-primary-cream scroll-smooth">
+    <section class="border-2 border-primary-black py-16 -mt-ccc lg:h-hero-size">
       <div class="flex flex-col lg:flex-row lg:max-w-6xl mx-auto">
         <div class="flex flex-col max-w-sm mx-auto items-center gap-8 lg:max-w-5xl">
           <h1 class="font-rubik font-bold text-3xl text-center max-w-phone text-primary-grey lg:text-6xl lg:max-w-5xl lg:leading-tight">Hi, I´m <span class=" text-primary-black">Emil Lind</span> <br>A Frontend Developer <br>Based in Odense</h1>
-          <p class="font-rubik font-normal text-base text-primary-black text-center max-w-phone lg:max-w-lg lg:text-lg">I am an aspiring front end developer with a passion for designing and creating websites with HTML, CSS & JS.</p>
+          <p class="font-rubik font-normal text-base text-primary-black text-center max-w-phone lg:max-w-lg lg:text-lg -mt-4">I am an aspiring front end developer with a passion for designing and creating websites with HTML, CSS & JS.</p>
           <div>
-            <button class=" text-primary-black px-8 py-3 border-solid border-2 border-primary-black text-xl font-rubik">Projects</button>
-            <button class=" text-primary-white px-8 py-3 bg-primary-blue border-solid border-2 border-primary-blue text-xl font-rubik">Hire me</button>
+            <a href="#work" class=" text-primary-black px-8 py-3 border-solid border-2 border-primary-black text-xl font-rubik transition duration-300 hover:bg-secondary-cream scroll-smooth">Projects</a>
+            <a href="" class=" text-primary-white px-8 py-3 bg-primary-blue border-solid border-2 border-primary-blue text-xl font-rubik transition duration-300 hover:bg-secondary-blue hover:border-secondary-blue">Hire me</a>
           </div>
+          <fa class=" text-2xl animate-bounce px-3 py-2 mt-4 hidden lg:block" icon="arrow-down" />
         </div>
-        
       </div>
     </section>
     <!-- who am i section -->
@@ -88,12 +88,12 @@
       </div>
     </section>
     <!-- my work section -->
-    <section class="mt-8">
+    <section class="mt-8" id="work">
       <h2 class="text-center my-8 font-rubik font-medium text-2xl">My work</h2>
       <div class="lg:flex lg:justify-center">
         <div class="flex flex-col text-center">
 
-          <a href="projectname1.html">
+          <a href="hydrovertic.html">
             <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project lg:max-w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
               <div class=" flex flex-col items-center">
                 <h3 class=" font-rubik font-medium text-xl">Personal Portfolio</h3>
@@ -105,7 +105,7 @@
                   <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Vue.js</div>
                   <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Adobe Xd</div>
                 </div>
-                <img class="h-60" src="images/emillind.png" alt="Hydrovertic logo">
+                <img class="h-60" src="images/emillind.png" alt="Picture of me">
               </div>
             </article>
           </a>
@@ -121,8 +121,8 @@
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Vue.js</div>
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Adobe Xd</div>
               </div>
-              <img class=" h-28" src="images/gfm.png" alt="Our reworked Glorious Family Foundation logo">
             </div>
+            <div class=" h-full flex items-center justify-center"><img class=" h-28" src="images/gfm.png" alt="Our reworked Glorious Family Foundation logo"></div>
           </article>
           
         </div>
@@ -139,8 +139,8 @@
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Client</div>
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Adobe Xd</div>
               </div>
-              <img class="" src="images/hydrovertic.png" alt="Hydrovertic logo">
             </div>
+            <div class=" h-full flex items-center justify-center"><img class="" src="images/hydrovertic.png" alt="Hydrovertic logo"></div>
           </article>
 
           <article class="border-2 border-primary-black max-w-phone py-8 mx-auto w-full h-project-phone -mb-bbb flex flex-col lg:w-project lg:max-w-project transition duration-300 hover:bg-secondary-cream cursor-pointer">
@@ -151,8 +151,8 @@
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Client</div>
                 <div class="border-2 border-primary-black font-rubik italic text-xs p-1">Concept</div>
               </div>
-              <img class="h-28" src="images/fjordandbelt.png" alt="Fjord & Bælt logo">
             </div>
+            <div class=" h-full flex items-center justify-center"><img class="h-28" src="images/fjordandbelt.png" alt="Fjord & Bælt logo"></div>
           </article>
 
         </div>
@@ -167,10 +167,12 @@
           <p class=" font-rubik font-normal text-base text-primary-black text-center lg:max-w-md lg:text-left">I am always ready to answer questions about my work or possible projects in the future. noget med have a talk tænker jeg her, lidt mere åbent</p>
           
           <div class="flex flex-col gap-2">
-            <div class="border-2 border-primary-black flex items-center p-2 lg:max-w-lg lg:max-h-12">
+            <div class="border-2 border-primary-black flex items-center p-2 lg:max-w-lg lg:max-h-12 gap-4">
+              <fa class=" text-2xl" icon="message" />
               <p class="font-rubik font-normal text-base text-primary-black text-center">emilwaellind@gmail.com</p>
             </div>
-            <div class="border-2 border-primary-black flex items-center p-2 lg:max-w-lg lg:max-h-12">
+            <div class="border-2 border-primary-black flex items-center p-2 lg:max-w-lg lg:max-h-12 gap-4">
+              <fa class=" text-2xl" icon="phone" />
               <p class="font-rubik font-normal text-base text-primary-black text-center">+45 42544888</p>
             </div>
           </div>
@@ -181,6 +183,12 @@
     </section>
 
   </main>
+
+  <footer class=" bg-primary-cream py-8">
+    <p class="text-center font-rubik mt-3">
+      Copyright © 2022 lind.gg
+    </p>
+  </footer>
 
 </template>
 
